@@ -55,7 +55,7 @@ a:hover {
      position: relative;
 }
 
-[class^="img-div"] {
+[class$="img-div"] {
      border: 1px solid black;
      width: 250px;
      height: 350px;
