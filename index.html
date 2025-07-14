@@ -22,17 +22,18 @@
      <main>
           <section class="section-1">
                <div class="img-div">
-                    <img src="https://raw.githubusercontent.com/OseagwinaExcellence/My-Student-Card/refs/heads/main/images/photo_2025-04-15_20-21-34.jpg" alt="my-photo">
+                    <img class="user-img" src="./images/photo_2025-04-15_20-21-34.jpg" alt="my-photo">
                    <div class="text">
                      <h6>Oseagwina Excellence</h6>
                     <p class="text-p">A Cyber Expert</p>
-                   </div>
-               </div>
+                   </div>              
           </section>
+          <hr>
            <section class="section-2">
-               <h2 id="about">My About</h2>
+               <h2 id="about">About Me</h2>
                <p class="section-2-p">My Name is Excellence Oseagwina. Currently studying at Wellspring University. My Hobbies are watching Anime and Movies, Reading Mangas and Comicbooks, Coding and Hacking</p>
           </section>
+          <hr>
            <section class="section-3">
                <h3 id="skills">Skills</h3>
                <table>
@@ -55,6 +56,7 @@
                     </tr>
                </table>
           </section>
+          <hr>
           <section class="section-4">
                <h4 id="contact"> Contact</h4>
                <div class="form-div">
@@ -62,14 +64,17 @@
                          <fieldset>
                               <legend>Contact Me</legend>
                               <label for="name">Name:</label>
-                              <input type="text" name="name" id="name" required>
+                              <input type="text" name="name" id="name" required title="Enter Full Name">
                               <label for="email">E-Mail:</label>
-                              <input type="email" name="email" id="email" required>
-                              <button type="submit">Submit</button>
+                              <input type="email" name="email" id="email" required title="Enter E-Mail">
+                              <label for="message">Message:</label>
+                              <textarea name="message" id="message" cols="26" minlength="4" maxlength="2340"></textarea>
+                              <button type="submit" title="Submit">Submit</button>
                          </fieldset>
                     </form>
                </div>
           </section>
+          <hr>
           <section class="section-5">
                <h5 id="link">Links</h5>
                <ul class="link-links">
@@ -78,8 +83,9 @@
                </ul>
           </section>
      </main>
-           <footer>
+     <hr>
+     <footer>
         <p>© 2025 Excel. All rights reserved.</p>
-  </footer>
+     </footer>
 </body>
 </html>
