@@ -53,6 +53,7 @@ a:hover {
      width: 300px;
      margin-right: auto;
      margin-left: auto;
+     margin-top: 200px;
      border-radius: 20px;
      padding: 30px 30px 30px 30px;
 }
@@ -61,17 +62,6 @@ a:hover {
      position: relative;
      width: 300px;
      border-radius: 20px;
-}
-
-span {
-     background-color: red;
-     padding: 10px;
-     width: 40px;
-     border-radius: 10px;
-     color: white;
-     position: absolute;
-     left: 90px;
-     top: 50px;   
 }
 
 [class$="text"] {
@@ -96,7 +86,7 @@ h6 {
      content: "👨‍💻";
 }
 
-[class^="section-2-p"] {
+[class^="div-2-p"] {
      width: 700px;
      margin-right: auto;
      margin-left: auto;
@@ -241,12 +231,12 @@ h5 {
      flex-direction: column ;
 }
 
-.section5-link-one {
+.div5-link-one {
      margin-left: 4px;
      color: black;
 }
 
-.section5-link {
+.div5-link {
      text-decoration: none;
      color: black;
 }
