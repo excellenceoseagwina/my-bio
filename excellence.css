@@ -48,38 +48,47 @@ a:hover {
     transition: 0.2s;
 }
 
-[class*="user-img"] {
-     width: 200px; 
-     border-radius: 10px;
-     margin-left: 5px;
-     position: relative;
+[class*="first-div"] {
+     border: 2px solid black;
+     width: 300px;
+     margin-right: auto;
+     margin-left: auto;
+     border-radius: 20px;
+     padding: 30px 30px 30px 30px;
 }
 
-[class$="img-div"] {
-     border: 1px solid black;
-     width: 250px;
-     height: 350px;
-     padding: 20px 10px 10px 49px;
+[class^="user-img"] {
+     position: relative;
+     width: 300px;
      border-radius: 20px;
-     margin: 200px auto 70px auto;
-     box-shadow: 2px 2px 2px rgb(185, 185, 185);
+}
+
+span {
+     background-color: red;
+     padding: 10px;
+     width: 40px;
+     border-radius: 10px;
+     color: white;
+     position: absolute;
+     left: 90px;
+     top: 50px;   
+}
+
+[class$="text"] {
+     width: 200px;
+     margin: auto;
 }
 
 h6 {
      text-decoration: underline;
      font-size: large;
-     font-weight: bold;
-     margin-left: 19px;
-     margin-bottom: 15px;
 }
 
-[class*="text-p"] {
-   margin-left: 50px;   
-   margin-top: 0;
-   font-style: italic;
+[class$="text-p"] {
+     margin-left: 30px;
 }
 
-[class*="section-2"] {
+[class*="div-2"] {
    margin-bottom: 100px;
 }
 
@@ -245,3 +254,4 @@ h5 {
 hr {
      margin: 100px 0;
 }
+
